@@ -1,0 +1,98 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desi Dawat</title>
+<link rel="stylesheet" href="restaurant.css">  
+ 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Dawat</title>
+    <link rel="stylesheet" href="restaurant.css">  
+</head>
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.4s ease;
+}
+.nav-links a:hover, .nav-links a.active {
+    color: #d35400;
+}
+
+#special-dishes {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align:  : center;
+    
+}
+
+#special-dishes h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.special-dishes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 30px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.dish-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dish-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dish-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 15px;
+}
+
+.dish-item p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+ 
+.dish-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+ 
+@media (max-width: 768px) {
+    .special-dishes-container {
+        grid-template-columns: 1fr;   
+    }
+}

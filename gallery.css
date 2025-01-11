@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Dawat - Menu</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><strong>DESI</strong><br><strong>DAWAT</strong></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main><section id="gallery">
+    <h2>Gallery</h2>
+    <p>Take a look at some of our mouth-watering dishes and vibrant ambiance.</p>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="https://northernvirginiamag.com/wp-content/uploads/2023/10/Field-Main_Ayres-2.jpg" alt="Indian Cuisine 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://anitahendrieka.com/wp-content/uploads/2019/05/indian-sweet-371357_1280.jpg" alt="Indian Sweet">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/moumita.malla-gmail.com/traditional_rasmalai_recipe.jpg" alt="Ras Malai">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/04/butter-chicken-recipe.jpg" alt="Butter Chicken">
+        </div>
+        <div class="gallery-item">
+            <img src="https://i0.wp.com/spicechronicles.com/wp-content/uploads/2https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/palak-paneer-3.jpg" alt="Palak Paneer">
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.ytimg.com/vi/csfIOfMnRGg/maxresdefault.jpg012/09/CTM_2.jpg?resize=640%2C640&ssl=1" alt="Indian Cuisine">
+        </div>
+        <div class="gallery-item">
+            <img src="https://kannanskitchen.com/wp-content/uploads/2023/01/DSC_4737-500x500.jpg" alt="Indian Dish">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xwqut2tmLnFjZA-azxjFNBkLi2rEX8c8Fw&s" alt="Indian Dish">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.livehindustan.com/lh-img/uploadimage/library/2022/08/06/16_9/16_9_6/jowar_pakore_1659760888.jpg" alt="Pakoras">
+        </div>
+    </div>
+</section>
